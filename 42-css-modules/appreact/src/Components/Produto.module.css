@@ -1,0 +1,19 @@
+.titulo {
+  color: #43c;
+}
+
+/* Sempre usar como CamelCase */
+.precoTotal {
+  font-weight: bold;
+}
+
+.comprar:hover {
+  background: rgba(0, 128, 0, 0.608);
+}
+
+/* Extras que não serão ultilizadas */
+/* @value */
+
+/* :global .container {
+  max-width: 900px;
+} */

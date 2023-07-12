@@ -1,0 +1,25 @@
+.container {
+  overflow: hidden; /*Para esconder tudo que ficar além da tela, se não tiver overflow: hidden ele vai criar uma barra scroll vertical*/
+}
+
+.content {
+  display: flex;
+  transition: transform 0.3s ease; /*mais suave*/
+}
+
+.item {
+  flex-shrink: 0; /*flex-shrink: 0 não compacte meu item, deixe ele do tamanho que eu coloquei abaixo*/
+  width: 80%;
+  margin: 0 10%;
+  padding: 10rem 0;
+  background: #eee;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto; /*1rem para cima e pra baixo e auto dos lados*/
+  width: 80%;
+}

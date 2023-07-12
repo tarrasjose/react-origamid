@@ -1,0 +1,62 @@
+body {
+  margin: 2rem;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+  margin: 0 auto;
+  min-height: calc(100vh + 10rem); /*Este calculo cria uma barra de rolagem quando não tem e evitar dar uns pulinhos quando vai para pagina que não tem scroll*/
+}
+
+.content {
+  flex: 1;
+  /* O conteudo tentará sempre se expandir ao maximo */
+}
+
+.animeLeft {
+  transform: translateX(-20px);
+  opacity: 0;
+  animation: animeLeft .3s forwards;
+}
+
+@keyframes animeLeft {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}
+
+/* Desenho do loading */
+.loading {
+  width: 20px; 
+  height: 20px;
+  /* cria um quadrado isto acima */
+  border-radius: 50%;
+  /* vamos arrendondar ele com este acima */
+  border: 10px solid #ccc;
+  border-right-color: transparent;
+  animation: loading 1s infinite;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Desenho do loading */

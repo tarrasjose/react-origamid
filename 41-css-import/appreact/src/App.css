@@ -1,0 +1,12 @@
+.container {
+  height: 20px;
+  background: tomato;
+}
+
+.title {
+  color: tomato;
+}
+
+/* .AppTitulo ou .App h1 {
+  Se toda class começar com o nome do meu componente, evita estes erros dos mesmos nomes
+} */

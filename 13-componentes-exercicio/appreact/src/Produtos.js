@@ -19,6 +19,10 @@ const produtos = [
       {produtos.map((produto) => (
         <Produto key={produto.nome} {...produto} />
       ))}
+
+      {/* {produtos.map((produto) => (
+        <Produto key={produto.nome} nome={produto.nome} propriedades={produto.propriedades} />
+      ))} */}
     
     </section>
   )

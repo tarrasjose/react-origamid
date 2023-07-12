@@ -1,0 +1,18 @@
+.comments {
+  /* Para criar a barra de scroll */
+  overflow-y: auto;
+  /* word-break caso a palavra esteja muito grande, quero quebrar ela*/
+  word-break: break-word;
+  padding: 0 2rem;
+  
+}
+
+/* quanto está no mesmo elemento tem grudar assim */
+.single.comments {
+  padding: 0px;
+}
+
+.comments li {
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
